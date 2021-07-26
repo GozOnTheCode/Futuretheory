@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+@font-face {
+    font-family: Pockota Medium;
+    src: url(../font/Pockota-Medium.ttf);
+}
+
+@font-face {
+    font-family: Muli Bold;
+    src: url(../font/Muli-Bold.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    font-family: Inter;
+    height: 120px;
+}
+
+.blue {
+    color: #2d2dfe;
+}
+
+nav {
+    margin-left: 750px;
+}
+
+li {
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 17px;
+    padding: 20px;
+}
+
+li:hover {
+    color: #2d2dfe;
+}
+
+.img-title {
+    width: 220px;
+    margin-left: 50px;
+}
+
+/* Middle */
+
+.middle {
+    font-family: Pockota Medium;
+    background-color: #f0f0ff;
+    height: 85vh;
+}
+
+.img-middle {
+    width: 900px;
+    margin-left: 788px;
+    height: 85vh;
+    position: relative;
+}
+
+.p-middle {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 100px;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.button-middle {
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 100px;
+    font-family: Inter;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 900;
+    background-color: #2d2dfe;
+    border-radius: 5%;
+    padding: 25px 25px;
+    transition: .4s;
+}
+
+.button-middle:hover {
+    opacity: 0.8;
+    border-color: #2d2dfe;
+}
+
+.button-middle1 {
+    position: absolute;
+    margin-top: 330px;
+    margin-left: 250px;
+    font-family: Inter;
+    text-decoration: none;
+    font-size: 20px;
+    color: #2d2dfe;
+    font-weight: bold;
+    background-color: transparent;
+    border: solid 2px #2d2dfe;
+    padding: 23px 35px;
+    border-radius: 5%;
+    transition: .4s;
+}
+
+.button-middle1:hover {
+    border: solid 2px #000018;
+    background-color: #000018;
+    font-weight: bold;
+    color: white;
+}
+
+/* div1 */
+
+.more {
+    display: flex;
+}
+
+.div-1 {
+    background-color: #f0f0ff;
+    width: 500px;
+    font-family: Inter;
+    margin-top: 100px;
+    height: 380px;
+    margin-left: 50px;
+}
+
+.h1-div1 {
+    font-family: Muli Bold;
+    font-weight: bold;
+    margin-top: 60px;
+    font-size: 32px;
+}
+
+.text-1 {
+    margin-left: 50px;
+    padding: 35px 35px;
+    font-size: 17px;
+}
+
+.p-div1 {
+    margin-top: 25px;
+    color: #4d4d5d;
+    font-size: 17;
+    font-weight: 600;
+}
+
+.a-div1 {
+    background-color: #2d2dfe;
+    text-decoration: none;
+    padding: 25px 35px;
+    border-radius: 5%;
+    color: white;
+    font-weight: bold;
+    transition: .4s;
+}
+
+.a-div1:hover {
+    opacity: 0.8;
+}   
+
+.div1-a {
+    margin-top: 70px;
+}
+
+/* organisation */
+
+.organisation {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.organisation-h1 {
+    font-family: Muli Bold;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.organisation-p {
+    font-family: Inter;
+    font-weight: 600;
+    color: #4d4d5d;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.organisation img {
+    display: inline-block;
+    width: 350px;
+    margin-top: 50px;
+    padding: 70px;
+}
+
+
+/* latest */
+
+.latest {
+    background-color: #f0f0ff;
+    height: 135vh;
+    position: relative;
+}
+
+.title-latest {
+    color: #4d4d5d;
+    font-family: Inter;
+    letter-spacing: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 85px;
+}
+
+.canberra {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.h1-canberra {
+    color: #2d2dfe;
+    font-family: Pockota Medium;
+    font-weight: 100;
+    font-size: 44px;
+}
+
+.img-canberra {
+    margin-top: 50px;
+}
+
+.under-title-canberra {
+    color: #4d4d5d;
+    font-family: Inter;
+    letter-spacing: 4px;
+    font-size: 12px;
+    margin-top: 40px;
+    position: absolute;
+    font-weight: bold;
+}
+
+.h1-2-canberra {
+    font-family: Muli Bold;
+    margin-top: 70px;
+    font-size: 30px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.h1-2-canberra:hover {
+    color: #2d2dfe;
+}
+
+.p-canberra {
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 600;
+    color: #4d4d5d;
+    margin-top: 25px;
+}
+
+.span-read {
+    color: #2d2dfe;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.span-read:hover {
+    color: black;
+}
+
+.p-date1 {
+    color: #aaaaaa;
+    font-family: Inter;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 25px;
+}
+
+.div-canberra-1 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-left: 950px;
+    margin-top: 310px;
+}
+
+.div-text1-canberra {
+    margin-left: 50px;
+}
+
+.p-canberra1 {
+    position: absolute;
+    color: #4d4d5d;
+    letter-spacing: 4px;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: bold;
+    margin-top: -15px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.p-canberra1:hover {
+    color: #2d2dfe;
+}
+
+.h1-canberra1 {
+    font-family: Muli Bold;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.h1-canberra1:hover {
+    color: #2d2dfe;
+}
+
+.p-canberra-date1 {
+    color: #aaaaaa;
+    font-family: Inter;
+}
+
+.img-canberra1 {
+    width: 170px;
+}
+
+.div-canberra-2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-left: 950px;
+    margin-top: 480px;
+}
+
+.div-canberra-3 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-left: 950px;
+    margin-top: 640px;
+}
+
+.div-canberra-4 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-left: 950px;
+    margin-top: 800px;
+}
+
+/* section why us */
+
+.section-why-us {
+    position: relative;
+}
+
+.div-whyus {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.title-whyus {
+    color: #4d4d5d;
+    letter-spacing: 4px;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.h1-whyus {
+    font-family: Muli bold;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.p-whyus {
+    color: #4d4d5d;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+
+.span-whyus {
+    position: absolute;
+    margin-top: 40px;
+}
+
+.end-div {
+    position: absolute;
+    margin-top: 200px;
+}
+
+.h1-whyus2 {
+    font-family: Muli bold;
+    font-size: 30px;
+}
+
+
+.span-whyus1 {
+    margin-top: 50px;
+}
+
+.p-1 {
+    font-family: Inter;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 18px;
+    color: #4d4d5d;
+    margin-top: 30px;
+}
+
+.p-2 {
+    font-family: Inter;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 18px;
+    color: #4d4d5d;
+    margin-top: 30px;
+}
+
+.p-3 {
+    font-family: Inter;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 18px;
+    color: #4d4d5d;
+    margin-top: 30px;
+}
+
+.img-end-div {
+    margin-left: 800px;
+    transform: translateY(-100%);
+}
+
